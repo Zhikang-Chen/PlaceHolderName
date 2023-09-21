@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.6.6",
+	"FriendlyName": "EventDispatcher",
+	"Description": "Global event dispatcher / manager",
+	"Category": "eelDev Plugins",
+	"CreatedBy": "Dry Eel Development",
+	"CreatedByURL": "https://eeldev.com",
+	"DocsURL": "https://eeldev.com/index.php/eventdispatcher-plugin/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5ca8d20450b14699b492d7ecd7df3191",
+	"SupportURL": "https://eeldev.com/index.php/eventdispatcher-plugin/",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "EventDispatcher",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Editor Interface Size",
+	"Description": "Adjust editor interface size",
+	"Category": "Editor",
+	"CreatedBy": "ZADROT",
+	"CreatedByURL": "https://zadrot.ru/",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e80602317f6f43fa92e84cb51e286add",
+	"SupportURL": "https://zadrot.ru/discord",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "EIS",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}
