@@ -26,7 +26,7 @@ void FActorLockerMenuExtender::RemoveLevelViewportMenuExtender()
 
 	if (const auto LevelEditorModule = FModuleManager::GetModulePtr<FLevelEditorModule>("LevelEditor"))
 	{
-		LevelEditorModule->GetAllLevelViewportContextMenuExtenders().RemoveAll([=](const auto& In) { return In.GetHandle() == MenuExtenderDelegateHandle; });
+		LevelEditorModule->GetAllLevelViewportContextMenuExtenders().RemoveAll([MenuExtenderDelegateHandle = MenuExtenderDelegateHandle](const auto& In) { return In.GetHandle() == MenuExtenderDelegateHandle; });
 	}
 }
 
